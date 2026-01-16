@@ -40,25 +40,30 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
-Describe the purpose of your survey:
+Describe the purpose of your survey: 
 ```
 write your answer here...
+The purpose of my survey is to find out which departments have high turnover and the causes of the turnover, as well as find out the departments that have high retention and what those departments excel at to retain employees.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
+target population: all employees at entry level and lower-level positions
+sampling frame: list of employee IDs of said junior employees
+sampling units: top 5 departments with highest turnover, and top 5 departments with lowest turnover/highest retention
+observational units: individual employees selected at random, the same proportion of employees from each department
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
+1. write your question here...on scale from 1-10, rate your satisfication with your workload
+2. write your question here...in order from highest importance to lowest importance, list the top 5 aspects about your job you would change
+3. write your question here... in order from highest importanct to lowest importance, list the top 5 aspects about your job you value
+4. write your question here...on a scale, how close does your job now align with the job description when applying
+5. write your question here...what surprised you the most about your role that you did not expect? would to consider this a good or bad surprise
 6. write your question here... (optional)
 7. write your question here... (optional)
 8. write your question here... (optional)
@@ -72,6 +77,23 @@ Identify and describe survey features:
 
 ```
 write your answer here
+1. Sample type: cross sectional survey, stratified probability sampling. they used rejective sampling due to difficulties reaching volunteers. This survey has a two stage sampling design. sampling units = telephone groups and 1 individual within each household
+2. Sample size: 50,000
+3. Target population: all people 15+ years in the 10 provinces of Canada, excluding FT residents of institutions
+4. Sampling frame: landline and cellular phone numbers from the Canadian Census, phone numbers are grouped into households based on shared address
+5. Survey mode(s) : electronic questionnaire or CATI
+6. Timeline: 7 month collection period between September 4 2018 - December 28 2018, participants were asked questions about the last 12 months of their lives
+7. Response rate: 41.9%
+8. Weights: there is an estimate weight and bootstrapping weight. 
+9. Data processing: work was done to check for changes over time, verification of estimates through cross-tabs, and confrontation with other similar sources of data
+10. Cleaning, imputation, etc: imputations were made using donor records selected through a score function.
+11. Sources of error: family relationships, consistency, flow (respondents following the correct path/ fix off path situations).  Sampling error, non-sampling errors (imperfect coverage and non-response). As well as coverage error: households without telephones were excluded
+12. Limitations, known biases, etc: non response bias was reduced using a series of adjustments to the survey weights, as well as basic characteristics of non-respondents were extracted from administrative sources.
+13. Link to documentation and any additional sources used:
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234#a2
+https://www150.statcan.gc.ca/n1/en/catalogue/89F0115X
+https://www150.statcan.gc.ca/n1/en/catalogue/45250011
+
 ```
 
 ## Rubric
